@@ -54,13 +54,7 @@ public class While {
 		
 		System.out.println("Senha correta");
 		
-		/*Peça um valor para o usuário e mostre
-		 * os números do 1 até chegar no número
-		 * que ele digitou
-		 */
-		
-		
-		System.out.println("Informe um valor");
+		System.out.println("Informe um número inteiro positivo");
 		int num = scanner.nextInt();
 		
 		while (num >= 1) {
